@@ -349,3 +349,17 @@ nav a{
         gap: 40px;
     }
 }
+
+
+/* change */
+
+.project a {
+    text-decoration: none;   /* underline hat jayegi */
+    color: inherit;          /* blue color hat jayega, parent color use hoga */
+}
+
+.project a:hover {
+    text-decoration: none;   /* hover par bhi underline hatayi */
+    color: inherit;          /* hover par bhi color same rahe */
+}
+
